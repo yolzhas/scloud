@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "S-Cloud — Launch Your Own Super-App | By Snoonu",
+    "description": "A complete white-label delivery platform built at scale. Empowering governments, enterprises, and innovators to dominate their local markets."
+  },
+  "nav": {
+    "product": "Product",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "requestDemo": "Request a Demo",
+    "langEn": "English",
+    "langAr": "العربية"
+  },
+  "banner": {
+    "text": "S-Cloud platform is now available in new MENA regions.",
+    "cta": "Request a Demo"
+  },
+  "hero": {
+    "headline": "Launch Your Own Super-App in Days, Not Months",
+    "subtext": "A complete white-label delivery platform built at scale. Empowering governments, enterprises, and innovators to dominate their local markets.",
+    "cta": "View Architecture"
+  },
+  "stats": {
+    "users": "Users Served",
+    "verticals": "Business Verticals",
+    "delivery": "Avg Delivery Time",
+    "multiMarket": "Multi-Market",
+    "multiMarketLabel": "Deployment"
+  },
+  "segments": {
+    "title": "Powering Every Vertical",
+    "subtitle": "From food to pharmacy, our platform adapts to any delivery vertical with specialized tools and workflows.",
+    "food": "Food Delivery",
+    "grocery": "Grocery",
+    "pharmacy": "Pharmacy",
+    "express": "Express",
+    "shopping": "Shopping"
+  },
+  "modules": {
+    "title": "Platform Modules",
+    "subtitle": "Everything you need to build, launch, and scale a delivery super-app.",
+    "corePlatform": {
+      "title": "Core Platform",
+      "consumerApp": {
+        "title": "Consumer Native App",
+        "description": "iOS & Android applications with full customization"
+      },
+      "merchantDashboard": {
+        "title": "Merchant Management Dashboard",
+        "description": "Complete merchant operations and analytics portal"
+      },
+      "driverApp": {
+        "title": "Driver Application",
+        "description": "Real-time driver management and navigation"
+      }
+    },
+    "operationsEngine": {
+      "title": "Operations Engine",
+      "fleetManagement": {
+        "title": "Real-time Fleet Management",
+        "description": "Live tracking and fleet optimization"
+      },
+      "routingDispatch": {
+        "title": "Intelligent Routing & Dispatch",
+        "description": "AI-powered order assignment and route optimization"
+      },
+      "orderTracking": {
+        "title": "Live Order Tracking",
+        "description": "End-to-end order visibility for all stakeholders"
+      }
+    },
+    "commerceTools": {
+      "title": "Commerce Tools",
+      "marketplace": {
+        "title": "Marketplace Configuration",
+        "description": "Flexible marketplace setup and management"
+      },
+      "merchantOnboarding": {
+        "title": "Automated Merchant Onboarding",
+        "description": "Streamlined merchant registration and verification"
+      },
+      "promotionsLoyalty": {
+        "title": "Promotions & Loyalty Engine",
+        "description": "Dynamic campaigns and customer retention tools"
+      }
+    },
+    "infrastructure": {
+      "title": "Infrastructure & Support",
+      "cloudHosting": {
+        "title": "Secure Cloud Hosting",
+        "description": "Enterprise-grade infrastructure with 99.9% uptime"
+      },
+      "analytics": {
+        "title": "Advanced Analytics & Reporting",
+        "description": "Actionable insights across all platform metrics"
+      },
+      "apiSupport": {
+        "title": "API Access & Dedicated Support",
+        "description": "RESTful APIs with 24/7 technical support"
+      }
+    }
+  },
+  "deployment": {
+    "title": "How It Works",
+    "subtitle": "Three steps to launch your platform.",
+    "license": {
+      "title": "License the Platform",
+      "description": "Choose your modules and sign the agreement. We handle the rest."
+    },
+    "deploy": {
+      "title": "We Deploy & Brand It",
+      "description": "Our team configures, customizes, and deploys your branded platform."
+    },
+    "launch": {
+      "title": "You Launch & Grow",
+      "description": "Go live in your market with full operational support from day one."
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Flexible plans designed to scale with your ambitions.",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect for single-vertical operators entering a new market.",
+      "coreModules": "1-2 Core Modules",
+      "setupFee": "Setup Fee",
+      "flatMonthly": "Flat Monthly License",
+      "cta": "Get Started"
+    },
+    "growth": {
+      "name": "Growth",
+      "description": "Full suite platform for ambitious multi-vertical aggregators.",
+      "fullPlatform": "Full Platform Access",
+      "setupMonthly": "Setup Fee + Monthly",
+      "lowTransaction": "Low Transaction %",
+      "cta": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For governments, telcos, and large retail chains.",
+      "customDev": "Custom Development",
+      "dataResidency": "Local Data Residency",
+      "multiCountry": "Multi-Country Deployment",
+      "cta": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Let's Build Your Platform",
+    "subtitle": "Tell us about your vision. Our team will design a solution tailored to your market.",
+    "trust1": "Response within 24 hours",
+    "trust2": "No commitment required",
+    "trust3": "Demo tailored to your target market",
+    "form": {
+      "fullName": "Full Name",
+      "companyName": "Company Name",
+      "targetMarket": "Target Market",
+      "companyType": "Company Type",
+      "companyTypePlaceholder": "Select company type",
+      "companyTypes": {
+        "government": "Government",
+        "enterprise": "Enterprise",
+        "telco": "Telco",
+        "startup": "Startup",
+        "retailChain": "Retail Chain",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Request a Demo",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Qatar's fastest-growing delivery platform connecting businesses with customers across the country.",
+    "contactUs": "Contact Us",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "becomePartner": "Become a Partner",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "merchantTerms": "Merchant Terms & Conditions",
+    "copyright": "2025 Snoonu. All rights reserved."
+  }
+}
