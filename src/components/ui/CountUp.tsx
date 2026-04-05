@@ -30,7 +30,7 @@ export default function CountUp({
   duration = 2,
 }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, margin: "-80px" });
+  const isInView = useInView(ref, { once: true });
   const [display, setDisplay] = useState(formatNumber(0, target));
   const hasAnimated = useRef(false);
 
