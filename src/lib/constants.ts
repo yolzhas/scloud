@@ -13,11 +13,12 @@ export const STATS = [
 ] as const;
 
 export const SEGMENTS = [
-  { key: "food", seed: "snoonu-food" },
-  { key: "grocery", seed: "snoonu-grocery" },
-  { key: "pharmacy", seed: "snoonu-pharmacy" },
-  { key: "express", seed: "snoonu-express" },
-  { key: "shopping", seed: "snoonu-shopping" },
+  { key: "royalClub", image: "/segments/royal-club.png" },
+  { key: "restaurants", image: "/segments/restaurants.png" },
+  { key: "genie", image: "/segments/genie.png" },
+  { key: "sCity", image: "/segments/s-city.png" },
+  { key: "snoomart", image: "/segments/snoomart.png" },
+  { key: "ecommerce", image: "/segments/market.png" },
 ] as const;
 
 export const MODULES = {

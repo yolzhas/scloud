@@ -30,12 +30,13 @@
   },
   "segments": {
     "title": "Powering Every Vertical",
-    "subtitle": "From food to pharmacy, our platform adapts to any delivery vertical with specialized tools and workflows.",
-    "food": "Food Delivery",
-    "grocery": "Grocery",
-    "pharmacy": "Pharmacy",
-    "express": "Express",
-    "shopping": "Shopping"
+    "subtitle": "From dining to deliveries, our platform powers every segment of the Snoonu ecosystem.",
+    "royalClub": "Royal Club",
+    "restaurants": "Restaurants",
+    "genie": "Genie",
+    "sCity": "S-City",
+    "snoomart": "Snoomart",
+    "ecommerce": "Ecommerce"
   },
   "modules": {
     "title": "Platform Modules",
