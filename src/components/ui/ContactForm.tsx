@@ -77,12 +77,24 @@ export default function ContactForm() {
       return;
     }
     setState("submitting");
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      setState("success");
-    } catch {
-      setState("error");
-    }
+
+    const subject = encodeURIComponent(
+      `S-Cloud Demo Request — ${data.companyName}`,
+    );
+    const body = encodeURIComponent(
+      [
+        `Name: ${data.fullName}`,
+        `Company: ${data.companyName}`,
+        `Target Market: ${data.targetMarket}`,
+        `Company Type: ${data.companyType}`,
+        ``,
+        `Message:`,
+        data.message,
+      ].join("\n"),
+    );
+
+    window.location.href = `mailto:cloud@snoonu.com?subject=${subject}&body=${body}`;
+    setState("success");
   }
 
   return (
