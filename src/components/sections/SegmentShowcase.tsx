@@ -23,9 +23,10 @@ export default function SegmentShowcase() {
             const isActive = active === index;
 
             return (
-              <div
+              <a
                 key={segment.key}
-                className="group relative cursor-pointer overflow-hidden rounded-2xl transition-all duration-500 ease-out"
+                href="#contact"
+                className="group relative cursor-pointer overflow-hidden rounded-2xl transition-all duration-500 ease-out block"
                 style={{
                   flex: isActive ? 4 : 1,
                 }}
@@ -52,7 +53,7 @@ export default function SegmentShowcase() {
                     {t(segment.key)}
                   </h3>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>
@@ -64,8 +65,9 @@ export default function SegmentShowcase() {
         >
           {SEGMENTS.map((segment, index) => (
             <ScrollReveal key={segment.key} delay={index * 0.08}>
-              <div
-                className="relative h-[360px] min-w-[260px] flex-shrink-0 snap-center overflow-hidden rounded-2xl"
+              <a
+                href="#contact"
+                className="relative h-[360px] min-w-[260px] flex-shrink-0 snap-center overflow-hidden rounded-2xl block"
                 style={{
                   backgroundImage: `url(${segment.image})`,
                   backgroundSize: "cover",
@@ -78,7 +80,7 @@ export default function SegmentShowcase() {
                     {t(segment.key)}
                   </h3>
                 </div>
-              </div>
+              </a>
             </ScrollReveal>
           ))}
         </div>
