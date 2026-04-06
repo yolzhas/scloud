@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { altform, estedad } from "@/lib/fonts";
+import { altform, estedad, golosText } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      className={`${altform.variable} ${estedad.variable} antialiased`}
+      className={`${altform.variable} ${estedad.variable} ${golosText.variable} antialiased`}
       suppressHydrationWarning
     >
       <body>{children}</body>

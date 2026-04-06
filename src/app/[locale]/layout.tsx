@@ -17,12 +17,14 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
   const isArabic = locale === "ar";
+  const fontClass =
+    locale === "ar" ? "font-arabic" : locale === "ru" ? "font-cyrillic" : "font-sans";
 
   return (
     <div
       lang={locale}
       dir={isArabic ? "rtl" : "ltr"}
-      className={`min-h-full flex flex-col ${isArabic ? "font-arabic" : "font-sans"}`}
+      className={`min-h-full flex flex-col ${fontClass}`}
     >
       <NextIntlClientProvider messages={messages}>
         {children}

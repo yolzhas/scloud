@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { Golos_Text } from "next/font/google";
 
 export const altform = localFont({
   src: [
@@ -44,5 +45,12 @@ export const estedad = localFont({
     { path: "../fonts/estedad/Estedad-Black.woff2", weight: "900" },
   ],
   variable: "--font-estedad",
+  display: "swap",
+});
+
+export const golosText = Golos_Text({
+  subsets: ["cyrillic", "latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-cyrillic",
   display: "swap",
 });

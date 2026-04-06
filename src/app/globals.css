@@ -19,6 +19,7 @@
   --color-brand-electric-blue: #00DFFF;
   --font-sans: var(--font-altform), system-ui, sans-serif;
   --font-arabic: var(--font-estedad), system-ui, sans-serif;
+  --font-cyrillic: var(--font-cyrillic), system-ui, sans-serif;
 }
 
 body {
