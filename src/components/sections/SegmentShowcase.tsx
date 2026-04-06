@@ -12,6 +12,15 @@ export default function SegmentShowcase() {
   const t = useTranslations("segments");
   const [active, setActive] = useState(0);
   const [lightbox, setLightbox] = useState<number | null>(null);
+  const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const handler = () => setIsDesktop(mq.matches);
+    handler();
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
 
   const openLightbox = (index: number) => setLightbox(index);
   const closeLightbox = () => setLightbox(null);
@@ -51,7 +60,7 @@ export default function SegmentShowcase() {
           </ScrollReveal>
 
           {/* Desktop accordion -- lg+ */}
-          <div className="mt-12 hidden h-[500px] gap-3 lg:flex">
+          {isDesktop !== false && <div className={`mt-12 h-[500px] gap-3 ${isDesktop === null ? "hidden lg:flex" : "flex"}`}>
             {SEGMENTS.map((segment, index) => {
               const isActive = active === index;
 
@@ -90,11 +99,11 @@ export default function SegmentShowcase() {
                 </button>
               );
             })}
-          </div>
+          </div>}
 
           {/* Mobile horizontal scroll -- below lg */}
-          <div
-            className="mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 -mx-4 px-4 lg:hidden"
+          {isDesktop !== true && <div
+            className={`mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 -mx-4 px-4 ${isDesktop === null ? "lg:hidden" : ""}`}
             style={{ scrollbarWidth: "none" }}
           >
             {SEGMENTS.map((segment, index) => (
@@ -116,7 +125,7 @@ export default function SegmentShowcase() {
                 </button>
               </ScrollReveal>
             ))}
-          </div>
+          </div>}
         </div>
       </section>
 

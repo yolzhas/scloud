@@ -80,9 +80,17 @@ export default function Hero() {
             fill="none"
             className="w-full max-w-[400px] h-auto"
           >
-            {/* Connection lines */}
+            <style>{`
+              @keyframes pulse-ring {
+                0% { r: var(--r-start); opacity: 0.3; }
+                100% { r: var(--r-end); opacity: 0; }
+              }
+              .pulse { animation: pulse-ring 2.5s ease-out infinite; }
+            `}</style>
+
+            {/* Connection lines — static */}
             {EDGES.map(([from, to], i) => (
-              <motion.line
+              <line
                 key={`edge-${i}`}
                 x1={NODES[from].cx}
                 y1={NODES[from].cy}
@@ -91,19 +99,12 @@ export default function Hero() {
                 stroke="#D90217"
                 strokeOpacity={0.12}
                 strokeWidth={1}
-                initial={{ pathLength: 0, opacity: 0 }}
-                animate={{ pathLength: 1, opacity: 1 }}
-                transition={{
-                  duration: 1,
-                  delay: 0.4 + i * 0.06,
-                  ease: "easeOut",
-                }}
               />
             ))}
 
-            {/* Nodes */}
+            {/* Nodes — static */}
             {NODES.map((node, i) => (
-              <motion.circle
+              <circle
                 key={`node-${i}`}
                 cx={node.cx}
                 cy={node.cy}
@@ -113,50 +114,34 @@ export default function Hero() {
                 stroke="#D90217"
                 strokeOpacity={0.2}
                 strokeWidth={1}
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{
-                  type: "spring" as const,
-                  stiffness: 100,
-                  damping: 15,
-                  delay: node.delay,
-                }}
               />
             ))}
 
-            {/* Animated pulse on primary nodes */}
+            {/* Pulse rings — CSS animated */}
             {[0, 2, 5, 8].map((idx) => (
-              <motion.circle
+              <circle
                 key={`pulse-${idx}`}
                 cx={NODES[idx].cx}
                 cy={NODES[idx].cy}
-                r={NODES[idx].r}
                 fill="none"
                 stroke="#D90217"
                 strokeWidth={1}
-                animate={{
-                  r: [NODES[idx].r, NODES[idx].r + 14],
-                  opacity: [0.3, 0],
-                }}
-                transition={{
-                  duration: 2.5,
-                  repeat: Infinity,
-                  delay: idx * 0.4,
-                  ease: "easeOut",
-                }}
+                className="pulse"
+                style={{
+                  "--r-start": NODES[idx].r,
+                  "--r-end": NODES[idx].r + 14,
+                  animationDelay: `${idx * 0.4}s`,
+                } as React.CSSProperties}
               />
             ))}
 
-            {/* Central hub glow */}
-            <motion.circle
+            {/* Central hub glow — static */}
+            <circle
               cx={NODES[2].cx}
               cy={NODES[2].cy}
               r={18}
               fill="#D90217"
               fillOpacity={0.06}
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={spring(0.5)}
             />
           </svg>
         </motion.div>
