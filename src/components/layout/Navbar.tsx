@@ -60,10 +60,10 @@ export default function Navbar() {
           <Image
             src={logoSrc}
             alt="S-Cloud"
-            width={160}
-            height={36}
+            width={120}
+            height={52}
             priority
-            className="h-9 w-auto"
+            className="h-10 w-auto"
           />
 
           {/* Desktop nav links */}

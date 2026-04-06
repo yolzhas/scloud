@@ -38,9 +38,9 @@ export default function Footer() {
             <Image
               src={logoSrc}
               alt="S-Cloud"
-              width={160}
-              height={36}
-              className="h-9 w-auto brightness-0 invert"
+              width={120}
+              height={52}
+              className="h-10 w-auto brightness-0 invert"
             />
             <p className="mt-4 max-w-[35ch] text-sm leading-relaxed text-zinc-400">
               {t("description")}
