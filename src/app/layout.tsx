@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "S-Cloud — Launch Your Own Super-App | By Snoonu",
   description:
     "A complete white-label delivery platform built at scale. Empowering governments, enterprises, and innovators to dominate their local markets.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/icon-192.png",
+  },
 };
 
 export default function RootLayout({
