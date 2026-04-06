@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import {
   MapPin,
   Envelope,
@@ -26,6 +26,8 @@ const SOCIAL_ICON_MAP: Record<string, React.ComponentType<any>> = {
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const locale = useLocale();
+  const logoSrc = locale === "ar" ? "/logo-ar.png" : "/logo-en.png";
 
   return (
     <footer className="bg-zinc-950">
@@ -34,11 +36,11 @@ export default function Footer() {
           {/* Column 1 - Brand */}
           <div>
             <Image
-              src="/logo_red.png"
-              alt="Snoonu"
-              width={120}
-              height={32}
-              className="h-8 w-auto brightness-0 invert"
+              src={logoSrc}
+              alt="S-Cloud"
+              width={160}
+              height={36}
+              className="h-9 w-auto brightness-0 invert"
             />
             <p className="mt-4 max-w-[35ch] text-sm leading-relaxed text-zinc-400">
               {t("description")}

@@ -176,7 +176,7 @@ export default function SegmentShowcase() {
             {/* Image */}
             <motion.div
               key={lightbox}
-              className="relative z-10 max-h-[85vh] max-w-[440px] w-full mx-16"
+              className="relative z-10 flex items-center justify-center px-4 py-20 sm:px-16"
               initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.92 }}
@@ -185,7 +185,7 @@ export default function SegmentShowcase() {
               <img
                 src={SEGMENTS[lightbox].image}
                 alt={t(SEGMENTS[lightbox].key)}
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                className="max-h-[75vh] w-auto rounded-2xl shadow-2xl"
                 draggable={false}
               />
             </motion.div>

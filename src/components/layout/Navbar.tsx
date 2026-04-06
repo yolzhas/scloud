@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { List, X } from "@phosphor-icons/react";
 import { NAV_LINKS } from "@/lib/constants";
@@ -11,6 +11,8 @@ import LanguageToggle from "@/components/ui/LanguageToggle";
 
 export default function Navbar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
+  const logoSrc = locale === "ar" ? "/logo-ar.png" : "/logo-en.png";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -56,12 +58,12 @@ export default function Navbar() {
         <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-4 md:h-20 md:px-8">
           {/* Logo */}
           <Image
-            src="/logo_red.png"
-            alt="Snoonu"
-            width={120}
-            height={32}
+            src={logoSrc}
+            alt="S-Cloud"
+            width={160}
+            height={36}
             priority
-            className="h-8 w-auto"
+            className="h-9 w-auto"
           />
 
           {/* Desktop nav links */}

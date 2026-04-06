@@ -97,7 +97,7 @@ export const SOCIAL_LINKS = [
 export const CONTACT_INFO = {
   address: "The 18th Tower, 14th Floor, Lusail, Qatar",
   email: "cloud@snoonu.com",
-  phone: "+974 3111 2214",
+  phone: "+974 4430 2000",
 } as const;
 
 export const FOOTER_LINKS = [
