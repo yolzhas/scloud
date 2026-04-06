@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "S-Cloud — Lanza Tu Propia Super-App | Por Snoonu",
+    "description": "Una plataforma de entrega de marca blanca completa, construida a escala. Empoderando a gobiernos, empresas e innovadores para dominar sus mercados locales."
+  },
+  "nav": {
+    "product": "Producto",
+    "howItWorks": "Cómo Funciona",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "requestDemo": "Solicitar una Demo",
+    "langEn": "English",
+    "langAr": "العربية"
+  },
+  "banner": {
+    "text": "La plataforma S-Cloud ya está disponible en nuevas regiones de MENA.",
+    "cta": "Solicitar una Demo"
+  },
+  "hero": {
+    "headline": "Lanza Tu Propia Super-App en Días, No en Meses",
+    "subtext": "Una plataforma de entrega de marca blanca completa, construida a escala. Empoderando a gobiernos, empresas e innovadores para dominar sus mercados locales.",
+    "cta": "Ver Arquitectura"
+  },
+  "stats": {
+    "users": "Usuarios Atendidos",
+    "verticals": "Verticales de Negocio",
+    "delivery": "Tiempo Promedio de Entrega",
+    "multiMarket": "Multi-Mercado",
+    "multiMarketLabel": "Despliegue"
+  },
+  "segments": {
+    "title": "Impulsando Cada Vertical",
+    "subtitle": "Desde programas de fidelización hasta compras impulsadas por IA, nuestra plataforma potencia cada experiencia que tus clientes adoran, bajo tu marca.",
+    "royalClub": "Royal Club",
+    "restaurants": "Restaurantes",
+    "genie": "Genie",
+    "sCity": "S-City",
+    "snoomart": "Snoomart",
+    "ecommerce": "Ecommerce"
+  },
+  "modules": {
+    "title": "Módulos de la Plataforma",
+    "subtitle": "Todo lo que necesitas para construir, lanzar y escalar una super-app de entregas.",
+    "corePlatform": {
+      "title": "Plataforma Principal",
+      "consumerApp": {
+        "title": "Aplicación Nativa para Consumidores",
+        "description": "Aplicaciones iOS y Android con personalización completa"
+      },
+      "merchantDashboard": {
+        "title": "Panel de Gestión de Comercios",
+        "description": "Portal completo de operaciones y análisis para comercios"
+      },
+      "driverApp": {
+        "title": "Aplicación para Conductores",
+        "description": "Gestión de conductores y navegación en tiempo real"
+      }
+    },
+    "operationsEngine": {
+      "title": "Motor de Operaciones",
+      "fleetManagement": {
+        "title": "Gestión de Flota en Tiempo Real",
+        "description": "Seguimiento en vivo y optimización de flota"
+      },
+      "routingDispatch": {
+        "title": "Enrutamiento y Despacho Inteligente",
+        "description": "Asignación de pedidos y optimización de rutas con IA"
+      },
+      "orderTracking": {
+        "title": "Seguimiento de Pedidos en Vivo",
+        "description": "Visibilidad de extremo a extremo de los pedidos para todas las partes interesadas"
+      }
+    },
+    "commerceTools": {
+      "title": "Herramientas de Comercio",
+      "marketplace": {
+        "title": "Configuración del Marketplace",
+        "description": "Configuración y gestión flexible del marketplace"
+      },
+      "merchantOnboarding": {
+        "title": "Incorporación Automatizada de Comercios",
+        "description": "Registro y verificación simplificados de comercios"
+      },
+      "promotionsLoyalty": {
+        "title": "Motor de Promociones y Fidelización",
+        "description": "Campañas dinámicas y herramientas de retención de clientes"
+      }
+    },
+    "infrastructure": {
+      "title": "Infraestructura y Soporte",
+      "cloudHosting": {
+        "title": "Alojamiento Cloud Seguro",
+        "description": "Infraestructura de nivel empresarial con 99,9% de disponibilidad"
+      },
+      "analytics": {
+        "title": "Análisis e Informes Avanzados",
+        "description": "Información accionable en todas las métricas de la plataforma"
+      },
+      "apiSupport": {
+        "title": "Acceso a API y Soporte Dedicado",
+        "description": "APIs RESTful con soporte técnico 24/7"
+      }
+    }
+  },
+  "deployment": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tres pasos para lanzar tu plataforma.",
+    "license": {
+      "title": "Licencia la Plataforma",
+      "description": "Elige tus módulos y firma el acuerdo. Nosotros nos encargamos del resto."
+    },
+    "deploy": {
+      "title": "Nosotros Desplegamos y Personalizamos",
+      "description": "Nuestro equipo configura, personaliza y despliega tu plataforma con tu marca."
+    },
+    "launch": {
+      "title": "Tú Lanzas y Creces",
+      "description": "Sal al mercado con soporte operativo completo desde el primer día."
+    }
+  },
+  "pricing": {
+    "title": "Planes de Precios",
+    "subtitle": "Planes flexibles diseñados para escalar con tus ambiciones.",
+    "starter": {
+      "name": "Starter",
+      "description": "Perfecto para operadores de un solo vertical que ingresan a un nuevo mercado.",
+      "coreModules": "1-2 Módulos Principales",
+      "setupFee": "Tarifa de Instalación",
+      "flatMonthly": "Licencia Mensual Fija",
+      "cta": "Comenzar"
+    },
+    "growth": {
+      "name": "Growth",
+      "description": "Plataforma completa para agregadores multi-vertical ambiciosos.",
+      "fullPlatform": "Acceso Completo a la Plataforma",
+      "setupMonthly": "Tarifa de Instalación + Mensual",
+      "lowTransaction": "Bajo % de Transacción",
+      "cta": "Comenzar"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Para gobiernos, operadores de telecomunicaciones y grandes cadenas minoristas.",
+      "customDev": "Desarrollo Personalizado",
+      "dataResidency": "Residencia de Datos Local",
+      "multiCountry": "Despliegue Multi-País",
+      "cta": "Contáctanos"
+    }
+  },
+  "contact": {
+    "title": "Construyamos Tu Plataforma",
+    "subtitle": "Cuéntanos tu visión. Nuestro equipo diseñará una solución adaptada a tu mercado.",
+    "trust1": "Respuesta en 24 horas",
+    "trust2": "Sin compromiso requerido",
+    "trust3": "Demo adaptada a tu mercado objetivo",
+    "form": {
+      "fullName": "Nombre Completo",
+      "companyName": "Nombre de la Empresa",
+      "targetMarket": "Mercado Objetivo",
+      "companyType": "Tipo de Empresa",
+      "companyTypePlaceholder": "Seleccionar tipo de empresa",
+      "companyTypes": {
+        "government": "Gobierno",
+        "enterprise": "Empresa",
+        "telco": "Telecomunicaciones",
+        "startup": "Startup",
+        "retailChain": "Cadena Minorista",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "submit": "Solicitar una Demo",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Nos pondremos en contacto en 24 horas.",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+    }
+  },
+  "footer": {
+    "description": "La plataforma de entrega de más rápido crecimiento de Qatar, conectando empresas con clientes en todo el país.",
+    "contactUs": "Contáctanos",
+    "quickLinks": "Enlaces Rápidos",
+    "followUs": "Síguenos",
+    "aboutUs": "Sobre Nosotros",
+    "services": "Servicios",
+    "becomePartner": "Ser Socio",
+    "privacyPolicy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "merchantTerms": "Términos y Condiciones para Comercios",
+    "copyright": "2026 Snoonu. Todos los derechos reservados."
+  }
+}
