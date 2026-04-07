@@ -13,12 +13,12 @@ export const STATS = [
 ] as const;
 
 export const SEGMENTS = [
-  { key: "royalClub", image: "/segments/royal-club.jpg" },
-  { key: "restaurants", image: "/segments/restaurants.jpg" },
-  { key: "genie", image: "/segments/genie.jpg" },
-  { key: "sCity", image: "/segments/s-city.jpg" },
-  { key: "snoomart", image: "/segments/snoomart.jpg" },
-  { key: "ecommerce", image: "/segments/market.jpg" },
+  { key: "royalClub", image: "/segments/royal-club.jpg", imageAr: "/segments/royal-club_ar.jpg" },
+  { key: "restaurants", image: "/segments/restaurants.jpg", imageAr: "/segments/restaurants_ar.jpg" },
+  { key: "genie", image: "/segments/genie.jpg", imageAr: "/segments/genie_ar.jpg" },
+  { key: "sCity", image: "/segments/s-city.jpg", imageAr: "/segments/s-city_ar.jpg" },
+  { key: "snoomart", image: "/segments/snoomart.jpg", imageAr: "/segments/snoomart_ar.jpg" },
+  { key: "ecommerce", image: "/segments/market.jpg", imageAr: "/segments/market_ar.jpg" },
 ] as const;
 
 export const MODULES = {

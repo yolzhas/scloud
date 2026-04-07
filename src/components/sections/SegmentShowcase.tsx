@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { X, CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { SEGMENTS } from "@/lib/constants";
 import SectionLabel from "@/components/ui/SectionLabel";
@@ -10,6 +10,9 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 export default function SegmentShowcase() {
   const t = useTranslations("segments");
+  const locale = useLocale();
+  const getImage = (segment: (typeof SEGMENTS)[number]) =>
+    locale === "ar" ? segment.imageAr : segment.image;
   const [active, setActive] = useState(0);
   const [lightbox, setLightbox] = useState<number | null>(null);
   const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
@@ -75,7 +78,7 @@ export default function SegmentShowcase() {
                   {/* Background image - zoomed out to show more of screenshot */}
                   <div
                     className="absolute inset-0 bg-cover bg-top bg-no-repeat transition-transform duration-700 ease-out scale-[0.85] group-hover:scale-90"
-                    style={{ backgroundImage: `url(${segment.image})` }}
+                    style={{ backgroundImage: `url(${getImage(segment)})` }}
                   />
 
                   {/* Subtle vignette background behind the zoomed-out image */}
@@ -114,7 +117,7 @@ export default function SegmentShowcase() {
                 >
                   <div
                     className="absolute inset-0 bg-cover bg-top bg-no-repeat scale-[0.85]"
-                    style={{ backgroundImage: `url(${segment.image})` }}
+                    style={{ backgroundImage: `url(${getImage(segment)})` }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-transparent to-transparent" />
                   <div className="absolute bottom-6 left-6 right-6">
@@ -183,7 +186,7 @@ export default function SegmentShowcase() {
               transition={{ type: "spring" as const, stiffness: 200, damping: 25 }}
             >
               <img
-                src={SEGMENTS[lightbox].image}
+                src={getImage(SEGMENTS[lightbox])}
                 alt={t(SEGMENTS[lightbox].key)}
                 className="max-h-[75vh] w-auto rounded-2xl shadow-2xl"
                 draggable={false}
@@ -212,7 +215,7 @@ export default function SegmentShowcase() {
                   }`}
                 >
                   <img
-                    src={segment.image}
+                    src={getImage(segment)}
                     alt={t(segment.key)}
                     className="h-full w-full object-cover object-top"
                     draggable={false}
