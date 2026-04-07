@@ -59,8 +59,8 @@
         "description": "Aplicaciones Android & iOS completamente personalizadas"
       },
       "merchantDashboard": {
-        "title": "Panel de Gestión para Comercios",
-        "description": "Portal completo de operaciones y análisis"
+        "title": "Portal de Gestión para Comercios",
+        "description": "Panel completo de operaciones y análisis"
       },
       "driverApp": {
         "title": "App para Repartidores",
@@ -79,7 +79,7 @@
       },
       "orderTracking": {
         "title": "Seguimiento de Pedidos en Vivo",
-        "description": "Visibilidad integral de los pedidos para todas las partes involucradas"
+        "description": "Visibilidad integral de los pedidos para todas las partes interesadas"
       }
     },
     "commerceTools": {
@@ -151,7 +151,7 @@
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Para gobiernos, operadores de telecomunicaciones y grandes cadenas comerciales",
+      "description": "Para gobiernos, empresas de telecomunicaciones y grandes cadenas comerciales",
       "customDev": "Desarrollo Personalizado",
       "dataResidency": "Residencia local de datos",
       "multiCountry": "Implementación en múltiples países",
