@@ -73,6 +73,7 @@ export default function Footer() {
                 <a
                   href={`tel:${CONTACT_INFO.phone.replace(/\s/g, "")}`}
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
+                  dir="ltr"
                 >
                   {CONTACT_INFO.phone}
                 </a>
