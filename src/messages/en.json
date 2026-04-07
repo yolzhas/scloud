@@ -22,10 +22,21 @@
     "cta": "Explore Platform Modules"
   },
   "stats": {
-    "users": "Users Served",
-    "verticals": "Business Verticals",
-    "delivery": "Avg Delivery Time",
-    "multiMarket": "Multi-Market",
+    "usersValue": "1.2",
+    "usersSuffix": "M+",
+    "usersPrefix": "",
+    "usersLabel": "Users Served",
+    "verticalsValue": "6",
+    "verticalsSuffix": "+",
+    "verticalsPrefix": "",
+    "verticalsLabel": "Business Verticals",
+    "deliveryValue": "15",
+    "deliverySuffix": " min",
+    "deliveryPrefix": "~",
+    "deliveryLabel": "Avg Delivery Time",
+    "multiMarketValue": "Multi-Market",
+    "multiMarketSuffix": "",
+    "multiMarketPrefix": "",
     "multiMarketLabel": "Deployment"
   },
   "segments": {

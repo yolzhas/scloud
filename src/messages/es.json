@@ -22,10 +22,21 @@
     "cta": "Ver Arquitectura"
   },
   "stats": {
-    "users": "Usuarios Atendidos",
-    "verticals": "Verticales de Negocio",
-    "delivery": "Tiempo Promedio de Entrega",
-    "multiMarket": "Multi-Mercado",
+    "usersValue": "1.2",
+    "usersSuffix": "M+",
+    "usersPrefix": "",
+    "usersLabel": "Usuarios atendidos",
+    "verticalsValue": "6",
+    "verticalsSuffix": "+",
+    "verticalsPrefix": "",
+    "verticalsLabel": "Verticales de negocio",
+    "deliveryValue": "15",
+    "deliverySuffix": " min",
+    "deliveryPrefix": "~",
+    "deliveryLabel": "Tiempo promedio de entrega",
+    "multiMarketValue": "Multi-Mercado",
+    "multiMarketSuffix": "",
+    "multiMarketPrefix": "",
     "multiMarketLabel": "Despliegue"
   },
   "segments": {

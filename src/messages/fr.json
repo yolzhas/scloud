@@ -22,10 +22,21 @@
     "cta": "Voir l'Architecture"
   },
   "stats": {
-    "users": "Utilisateurs servis",
-    "verticals": "Secteurs d'activité",
-    "delivery": "Temps de livraison moyen",
-    "multiMarket": "Multi-Marché",
+    "usersValue": "1.2",
+    "usersSuffix": "M+",
+    "usersPrefix": "",
+    "usersLabel": "Utilisateurs servis",
+    "verticalsValue": "6",
+    "verticalsSuffix": "+",
+    "verticalsPrefix": "",
+    "verticalsLabel": "Secteurs d'activité",
+    "deliveryValue": "15",
+    "deliverySuffix": " min",
+    "deliveryPrefix": "~",
+    "deliveryLabel": "Temps de livraison moyen",
+    "multiMarketValue": "Multi-Marché",
+    "multiMarketSuffix": "",
+    "multiMarketPrefix": "",
     "multiMarketLabel": "Déploiement"
   },
   "segments": {

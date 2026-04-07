@@ -22,10 +22,21 @@
     "cta": "Архитектура платформы"
   },
   "stats": {
-    "users": "Пользователей",
-    "verticals": "Направлений бизнеса",
-    "delivery": "Среднее время доставки",
-    "multiMarket": "Мультирынок",
+    "usersValue": "1.2",
+    "usersSuffix": "M+",
+    "usersPrefix": "",
+    "usersLabel": "Пользователей",
+    "verticalsValue": "6",
+    "verticalsSuffix": "+",
+    "verticalsPrefix": "",
+    "verticalsLabel": "Направлений бизнеса",
+    "deliveryValue": "15",
+    "deliverySuffix": " мин",
+    "deliveryPrefix": "~",
+    "deliveryLabel": "Среднее время доставки",
+    "multiMarketValue": "Мультирынок",
+    "multiMarketSuffix": "",
+    "multiMarketPrefix": "",
     "multiMarketLabel": "Присутствие"
   },
   "segments": {

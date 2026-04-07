@@ -22,10 +22,21 @@
     "cta": "عرض مكونات المنصة"
   },
   "stats": {
-    "users": "مستخدم تم خدمتهم",
-    "verticals": "قطاعات أعمال",
-    "delivery": "متوسط وقت التوصيل",
-    "multiMarket": "متعدد الأسواق",
+    "usersValue": "1.2",
+    "usersSuffix": " مليون+",
+    "usersPrefix": "",
+    "usersLabel": "مستخدم تم خدمتهم",
+    "verticalsValue": "6",
+    "verticalsSuffix": "+",
+    "verticalsPrefix": "",
+    "verticalsLabel": "قطاعات أعمال",
+    "deliveryValue": "15",
+    "deliverySuffix": " دقيقة",
+    "deliveryPrefix": "حوالي ",
+    "deliveryLabel": "متوسط وقت التوصيل",
+    "multiMarketValue": "متعدد الأسواق",
+    "multiMarketSuffix": "",
+    "multiMarketPrefix": "",
     "multiMarketLabel": "إطلاق في عدة أسواق"
   },
   "segments": {
