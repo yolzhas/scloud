@@ -34,7 +34,7 @@ export default function DeploymentProcess() {
 
                 {/* Step number badge */}
                 <p className="text-xs font-bold text-brand-red uppercase tracking-widest mb-4">
-                  Step {step.number}
+                  {t("stepLabel", { number: step.number })}
                 </p>
 
                 {/* Title */}

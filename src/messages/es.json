@@ -13,12 +13,12 @@
     "langAr": "العربية"
   },
   "banner": {
-    "text": "La plataforma S-Cloud ya está disponible en nuevas regiones de MENA.",
+    "text": "La plataforma S-Cloud ya está disponible en nuevas regiones de MENA",
     "cta": "Solicitar una Demo"
   },
   "hero": {
     "headline": "Lanza Tu Propia Super-App en Días, No en Meses",
-    "subtext": "Una plataforma de entrega de marca blanca completa, construida a escala. Empoderando a gobiernos, empresas e innovadores para dominar sus mercados locales.",
+    "subtext": "Una plataforma de reparto completamente white-label diseñada a medida. Potenciando a gobiernos, empresas e innovadores a liderar sus mercados locales.",
     "cta": "Ver Arquitectura"
   },
   "stats": {
@@ -34,7 +34,7 @@
     "royalClub": "Royal Club",
     "restaurants": "Restaurantes",
     "genie": "Genie",
-    "sCity": "S-City",
+    "sCity": "Snoonu City",
     "snoomart": "Snoomart",
     "ecommerce": "Ecommerce"
   },
@@ -44,16 +44,16 @@
     "corePlatform": {
       "title": "Plataforma Principal",
       "consumerApp": {
-        "title": "Aplicación Nativa para Consumidores",
-        "description": "Aplicaciones iOS y Android con personalización completa"
+        "title": "App para Usuarios",
+        "description": "Aplicaciones Android & iOS completamente personalizadas"
       },
       "merchantDashboard": {
-        "title": "Panel de Gestión de Comercios",
-        "description": "Portal completo de operaciones y análisis para comercios"
+        "title": "Panel de Gestión para Comercios",
+        "description": "Portal completo de operaciones y análisis"
       },
       "driverApp": {
-        "title": "Aplicación para Conductores",
-        "description": "Gestión de conductores y navegación en tiempo real"
+        "title": "App para Repartidores",
+        "description": "Gestión y navegación en tiempo real"
       }
     },
     "operationsEngine": {
@@ -64,11 +64,11 @@
       },
       "routingDispatch": {
         "title": "Enrutamiento y Despacho Inteligente",
-        "description": "Asignación de pedidos y optimización de rutas con IA"
+        "description": "Asignación de pedidos y optimización de rutas impulsadas por IA"
       },
       "orderTracking": {
         "title": "Seguimiento de Pedidos en Vivo",
-        "description": "Visibilidad de extremo a extremo de los pedidos para todas las partes interesadas"
+        "description": "Visibilidad integral de los pedidos para todas las partes involucradas"
       }
     },
     "commerceTools": {
@@ -79,7 +79,7 @@
       },
       "merchantOnboarding": {
         "title": "Incorporación Automatizada de Comercios",
-        "description": "Registro y verificación simplificados de comercios"
+        "description": "Registro y verificación de forma optimizada"
       },
       "promotionsLoyalty": {
         "title": "Motor de Promociones y Fidelización",
@@ -90,10 +90,10 @@
       "title": "Infraestructura y Soporte",
       "cloudHosting": {
         "title": "Alojamiento Cloud Seguro",
-        "description": "Infraestructura de nivel empresarial con 99,9% de disponibilidad"
+        "description": "Infraestructura de nivel empresarial con un 99,9% de disponibilidad"
       },
       "analytics": {
-        "title": "Análisis e Informes Avanzados",
+        "title": "Analítica Avanzada y Reportes",
         "description": "Información accionable en todas las métricas de la plataforma"
       },
       "apiSupport": {
@@ -104,26 +104,27 @@
   },
   "deployment": {
     "title": "Cómo Funciona",
-    "subtitle": "Tres pasos para lanzar tu plataforma.",
+    "subtitle": "Tres pasos para lanzar tu plataforma",
+    "stepLabel": "Paso {number}",
     "license": {
       "title": "Licencia la Plataforma",
       "description": "Elige tus módulos y firma el acuerdo. Nosotros nos encargamos del resto."
     },
     "deploy": {
-      "title": "Nosotros Desplegamos y Personalizamos",
+      "title": "Nosotros implementamos e identificamos",
       "description": "Nuestro equipo configura, personaliza y despliega tu plataforma con tu marca."
     },
     "launch": {
       "title": "Tú Lanzas y Creces",
-      "description": "Sal al mercado con soporte operativo completo desde el primer día."
+      "description": "Lanza tu operación en el mercado con soporte completo desde el primer día"
     }
   },
   "pricing": {
     "title": "Planes de Precios",
-    "subtitle": "Planes flexibles diseñados para escalar con tus ambiciones.",
+    "subtitle": "Planes flexibles diseñados para escalar con tus ambiciones",
     "starter": {
       "name": "Starter",
-      "description": "Perfecto para operadores de un solo vertical que ingresan a un nuevo mercado.",
+      "description": "Perfecto para operadores de un solo vertical ingresando a un nuevo mercado",
       "coreModules": "1-2 Módulos Principales",
       "setupFee": "Tarifa de Instalación",
       "flatMonthly": "Licencia Mensual Fija",
@@ -131,18 +132,18 @@
     },
     "growth": {
       "name": "Growth",
-      "description": "Plataforma completa para agregadores multi-vertical ambiciosos.",
+      "description": "Plataforma completa para empresas multiverticales ambiciosas",
       "fullPlatform": "Acceso Completo a la Plataforma",
-      "setupMonthly": "Tarifa de Instalación + Mensual",
-      "lowTransaction": "Bajo % de Transacción",
+      "setupMonthly": "Tarifa de instalación + mensualidad",
+      "lowTransaction": "Bajo % de transacción",
       "cta": "Comenzar"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Para gobiernos, operadores de telecomunicaciones y grandes cadenas minoristas.",
+      "description": "Para gobiernos, operadores de telecomunicaciones y grandes cadenas comerciales",
       "customDev": "Desarrollo Personalizado",
-      "dataResidency": "Residencia de Datos Local",
-      "multiCountry": "Despliegue Multi-País",
+      "dataResidency": "Residencia local de datos",
+      "multiCountry": "Implementación en múltiples países",
       "cta": "Contáctanos"
     }
   },
@@ -150,8 +151,8 @@
     "title": "Construyamos Tu Plataforma",
     "subtitle": "Cuéntanos tu visión. Nuestro equipo diseñará una solución adaptada a tu mercado.",
     "trust1": "Respuesta en 24 horas",
-    "trust2": "Sin compromiso requerido",
-    "trust3": "Demo adaptada a tu mercado objetivo",
+    "trust2": "Sin compromiso",
+    "trust3": "Demo personalizada para tu mercado",
     "form": {
       "fullName": "Nombre Completo",
       "companyName": "Nombre de la Empresa",
@@ -160,10 +161,10 @@
       "companyTypePlaceholder": "Seleccionar tipo de empresa",
       "companyTypes": {
         "government": "Gobierno",
-        "enterprise": "Empresa",
+        "enterprise": "Negocio",
         "telco": "Telecomunicaciones",
         "startup": "Startup",
-        "retailChain": "Cadena Minorista",
+        "retailChain": "Cadena Comercial",
         "other": "Otro"
       },
       "message": "Mensaje",
@@ -174,13 +175,13 @@
     }
   },
   "footer": {
-    "description": "La plataforma de entrega de más rápido crecimiento de Qatar, conectando empresas con clientes en todo el país.",
+    "description": "La plataforma de delivery de más rápido crecimiento en Qatar, conectando empresas con clientes en todo el país",
     "contactUs": "Contáctanos",
-    "quickLinks": "Enlaces Rápidos",
+    "quickLinks": "Enlaces Directos",
     "followUs": "Síguenos",
     "aboutUs": "Sobre Nosotros",
     "services": "Servicios",
-    "becomePartner": "Ser Socio",
+    "becomePartner": "Conviértete en socio",
     "privacyPolicy": "Política de Privacidad",
     "terms": "Términos y Condiciones",
     "merchantTerms": "Términos y Condiciones para Comercios",

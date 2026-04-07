@@ -13,13 +13,13 @@
     "langAr": "العربية"
   },
   "banner": {
-    "text": "S-Cloud platform is now available in new MENA regions.",
+    "text": "S-Cloud platform is now available in new MENA regions",
     "cta": "Request a Demo"
   },
   "hero": {
     "headline": "Launch Your Own Super-App in Days, Not Months",
     "subtext": "A complete white-label delivery platform built at scale. Empowering governments, enterprises, and innovators to dominate their local markets.",
-    "cta": "View Architecture"
+    "cta": "Explore Platform Modules"
   },
   "stats": {
     "users": "Users Served",
@@ -34,7 +34,7 @@
     "royalClub": "Royal Club",
     "restaurants": "Restaurants",
     "genie": "Genie",
-    "sCity": "S-City",
+    "sCity": "Snoonu City",
     "snoomart": "Snoomart",
     "ecommerce": "Ecommerce"
   },
@@ -104,7 +104,8 @@
   },
   "deployment": {
     "title": "How It Works",
-    "subtitle": "Three steps to launch your platform.",
+    "subtitle": "Three steps to launch your platform",
+    "stepLabel": "Step {number}",
     "license": {
       "title": "License the Platform",
       "description": "Choose your modules and sign the agreement. We handle the rest."
@@ -115,15 +116,15 @@
     },
     "launch": {
       "title": "You Launch & Grow",
-      "description": "Go live in your market with full operational support from day one."
+      "description": "Go live in your market with full operational support from day one"
     }
   },
   "pricing": {
     "title": "Pricing Plans",
-    "subtitle": "Flexible plans designed to scale with your ambitions.",
+    "subtitle": "Flexible plans designed to scale with your ambitions",
     "starter": {
       "name": "Starter",
-      "description": "Perfect for single-vertical operators entering a new market.",
+      "description": "Perfect for single-vertical operators entering a new market",
       "coreModules": "1-2 Core Modules",
       "setupFee": "Setup Fee",
       "flatMonthly": "Flat Monthly License",
@@ -131,7 +132,7 @@
     },
     "growth": {
       "name": "Growth",
-      "description": "Full suite platform for ambitious multi-vertical aggregators.",
+      "description": "Full suite platform for ambitious multi-vertical aggregators",
       "fullPlatform": "Full Platform Access",
       "setupMonthly": "Setup Fee + Monthly",
       "lowTransaction": "Low Transaction %",
@@ -174,7 +175,7 @@
     }
   },
   "footer": {
-    "description": "Qatar's fastest-growing delivery platform connecting businesses with customers across the country.",
+    "description": "Qatar's fastest-growing delivery platform connecting businesses with customers across the country",
     "contactUs": "Contact Us",
     "quickLinks": "Quick Links",
     "followUs": "Follow Us",

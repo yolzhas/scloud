@@ -30,7 +30,7 @@ export default function TopBanner() {
                 <ArrowRight
                   size={14}
                   weight="bold"
-                  className="transition-transform group-hover:translate-x-0.5"
+                  className="transition-transform group-hover:translate-x-0.5 rtl:scale-x-[-1]"
                 />
               </a>
 

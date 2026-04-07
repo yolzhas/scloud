@@ -13,12 +13,12 @@
     "langAr": "العربية"
   },
   "banner": {
-    "text": "La plateforme S-Cloud est désormais disponible dans de nouvelles régions MENA.",
+    "text": "La plateforme S-Cloud est désormais disponible dans de nouvelles régions MENA",
     "cta": "Demander une démo"
   },
   "hero": {
-    "headline": "Lancez Votre Propre Super-App en Jours, Pas en Mois",
-    "subtext": "Une plateforme de livraison en marque blanche complète, conçue à grande échelle. Donnez aux gouvernements, entreprises et innovateurs les moyens de dominer leurs marchés locaux.",
+    "headline": "Lancez Votre Propre Super-App en Quelques Jours, Pas en Plusieurs Mois",
+    "subtext": "Une plateforme de livraison en marque blanche complète, conçue pour passer à grande échelle. Permet aux gouvernements, entreprises et innovateurs de dominer leurs marchés locaux.",
     "cta": "Voir l'Architecture"
   },
   "stats": {
@@ -29,12 +29,12 @@
     "multiMarketLabel": "Déploiement"
   },
   "segments": {
-    "title": "Propulsant Chaque Secteur",
-    "subtitle": "Des programmes de fidélité aux achats propulsés par l'IA, notre plateforme alimente chaque expérience que vos clients adorent, sous votre marque.",
+    "title": "Une Solution Pour Chaque Secteur",
+    "subtitle": "Des programmes de fidélité aux achats propulsés par l'IA, notre plateforme propulse chaque expérience que vos clients adorent, sous votre marque.",
     "royalClub": "Royal Club",
     "restaurants": "Restaurants",
     "genie": "Genie",
-    "sCity": "S-City",
+    "sCity": "Snoonu City",
     "snoomart": "Snoomart",
     "ecommerce": "E-commerce"
   },
@@ -44,7 +44,7 @@
     "corePlatform": {
       "title": "Plateforme Principale",
       "consumerApp": {
-        "title": "Application Native Grand Public",
+        "title": "Application Mobile Client",
         "description": "Applications iOS et Android entièrement personnalisables"
       },
       "merchantDashboard": {
@@ -104,7 +104,8 @@
   },
   "deployment": {
     "title": "Comment ça marche",
-    "subtitle": "Trois étapes pour lancer votre plateforme.",
+    "subtitle": "Trois étapes pour lancer votre plateforme",
+    "stepLabel": "Étape {number}",
     "license": {
       "title": "Licenciez la Plateforme",
       "description": "Choisissez vos modules et signez le contrat. Nous nous occupons du reste."
@@ -115,15 +116,15 @@
     },
     "launch": {
       "title": "Vous Lancez et Grandissez",
-      "description": "Démarrez sur votre marché avec un support opérationnel complet dès le premier jour."
+      "description": "Démarrez sur votre marché avec un support opérationnel complet dès le premier jour"
     }
   },
   "pricing": {
     "title": "Plans Tarifaires",
-    "subtitle": "Des plans flexibles conçus pour évoluer avec vos ambitions.",
+    "subtitle": "Des plans flexibles conçus pour évoluer avec vos ambitions",
     "starter": {
       "name": "Starter",
-      "description": "Idéal pour les opérateurs mono-secteur entrant sur un nouveau marché.",
+      "description": "Idéal pour les opérateurs mono-secteur entrant sur un nouveau marché",
       "coreModules": "1 à 2 Modules Principaux",
       "setupFee": "Frais d'installation",
       "flatMonthly": "Licence Mensuelle Forfaitaire",
@@ -131,10 +132,10 @@
     },
     "growth": {
       "name": "Growth",
-      "description": "Plateforme complète pour les agrégateurs multi-secteurs ambitieux.",
+      "description": "Plateforme complète pour les agrégateurs multi-secteurs ambitieux",
       "fullPlatform": "Accès Complet à la Plateforme",
       "setupMonthly": "Frais d'installation + Mensuel",
-      "lowTransaction": "Faible % de Transaction",
+      "lowTransaction": "Faible pourcentage sur les transactions",
       "cta": "Commencer"
     },
     "enterprise": {
@@ -174,7 +175,7 @@
     }
   },
   "footer": {
-    "description": "La plateforme de livraison à la croissance la plus rapide du Qatar, connectant les entreprises aux clients à travers le pays.",
+    "description": "La plateforme de livraison à la croissance la plus rapide au Qatar, connectant les entreprises à leurs clients à travers le pays",
     "contactUs": "Contactez-nous",
     "quickLinks": "Liens Rapides",
     "followUs": "Suivez-nous",
