@@ -41,3 +41,14 @@ html {
   background-color: #D90217;
   color: white;
 }
+
+/* Arabic headline fix — reduce weight and increase line-height to prevent letter overlap */
+[dir="rtl"] h1 {
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+[dir="rtl"] h2 {
+  font-weight: 700;
+}
