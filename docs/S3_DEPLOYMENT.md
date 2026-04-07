@@ -28,13 +28,13 @@ aws s3 sync out/ s3://YOUR_BUCKET_NAME --delete
 
 ```
 s3://bucket/
-├── index.html          # Root redirect → /en
-├── en.html             # English page
-├── ar.html             # Arabic page
-├── fr.html             # French page
-├── es.html             # Spanish page
-├── ru.html             # Russian page
-├── 404.html            # Not found page
+├── index.html          # Root redirect → /en/
+├── en/index.html       # English page
+├── ar/index.html       # Arabic page
+├── fr/index.html       # French page
+├── es/index.html       # Spanish page
+├── ru/index.html       # Russian page
+├── 404/index.html      # Not found page
 ├── logo-en.png         # Logo files (served directly, no API)
 ├── logo-ar.png
 ├── segments/           # Segment images
@@ -45,41 +45,15 @@ s3://bucket/
 
 ## CloudFront configuration
 
+No CloudFront Functions needed. S3 natively serves `index.html` from directories.
+
 ### 1. Default root object
 Set to `index.html`
 
-### 2. Error pages (CRITICAL)
-Create a custom error response for 403 and 404:
-
-| HTTP Error Code | Response Page Path | HTTP Response Code |
-|-----------------|-------------------|--------------------|
-| 403             | `/index.html`     | 200                |
-| 404             | `/index.html`     | 200                |
-
-This ensures client-side routing works (e.g., `/en` resolves to `en.html` via the Next.js client router).
-
-**Alternative (recommended):** Use CloudFront Functions to rewrite clean URLs:
-
-```javascript
-function handler(event) {
-  var request = event.request;
-  var uri = request.uri;
-
-  // If URI has no extension and doesn't end with /
-  if (!uri.includes('.') && !uri.endsWith('/')) {
-    request.uri = uri + '.html';
-  }
-
-  // If URI ends with /
-  if (uri.endsWith('/') && uri !== '/') {
-    request.uri = uri.slice(0, -1) + '.html';
-  }
-
-  return request;
-}
-```
-
-Attach this as a **Viewer Request** function. This directly maps `/en` → `/en.html`, `/ar` → `/ar.html`, etc., without relying on the SPA fallback.
+### 2. S3 static website hosting
+Enable static website hosting on the S3 bucket with:
+- Index document: `index.html`
+- Error document: `404/index.html`
 
 ### 3. Cache behavior
 - `_next/static/*` → Cache for 1 year (immutable, hashed filenames)
@@ -91,13 +65,13 @@ After uploading new files:
 ```bash
 aws cloudfront create-invalidation \
   --distribution-id YOUR_DIST_ID \
-  --paths "/*.html" "/index.html"
+  --paths "/*"
 ```
 
 ## What NOT to do
 
 - **Do NOT** use `npm run build` (without `:static`) for S3 — it produces server-dependent output
-- **Do NOT** set CloudFront error pages to return the root `index.html` for ALL paths with status 200 — this breaks JS/CSS/image loading by serving HTML instead of assets. Use the CloudFront Function above instead.
+- **Do NOT** set CloudFront error pages to return the root `index.html` for ALL paths with status 200 — this serves HTML instead of JS/CSS/images and breaks the site
 - **Do NOT** delete `src/middleware.ts` — it's still needed for the Vercel deployment
 
 ## Verifying locally
@@ -105,5 +79,5 @@ aws cloudfront create-invalidation \
 ```bash
 npm run build:static
 npx serve out
-# Open http://localhost:3000/en
+# Open http://localhost:3000/en/
 ```

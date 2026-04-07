@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const isStatic = process.env.BUILD_TARGET === "static";
 
 const nextConfig: NextConfig = {
-  ...(isStatic ? { output: "export" } : { output: "standalone" }),
+  ...(isStatic ? { output: "export", trailingSlash: true } : { output: "standalone" }),
   images: {
     unoptimized: isStatic,
   },
