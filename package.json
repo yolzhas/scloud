@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "mv src/middleware.ts src/middleware.ts.bak 2>/dev/null; BUILD_TARGET=static next build; mv src/middleware.ts.bak src/middleware.ts 2>/dev/null",
     "start": "next start",
     "lint": "eslint"
   },
